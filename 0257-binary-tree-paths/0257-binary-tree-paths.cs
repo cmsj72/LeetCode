@@ -13,6 +13,7 @@
  */
 public class Solution {
     public IList<string> BinaryTreePaths(TreeNode root) {
+        //  https://leetcode.com/problems/binary-tree-paths/solutions/3013848/using-reccursive-approach
         List<string> paths = new List<string>();
         string s = "";
         FindPath(root, s);
