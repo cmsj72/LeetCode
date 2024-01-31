@@ -16,21 +16,21 @@ public:
         //  ========================
         //  https://leetcode.com/problems/is-subsequence/solutions/4075908/daily-leetcode-challenge-september-day-22-c-c-python3-kotlin
         //  원리 자체는 비슷하지만 이게 더 간단하게 작성한 코드
-        int length = s.size();
-        int c = 0;
-        if(length == 0){
-            return true;
-        }
-        for(int i = 0; i < t.size(); i++){
-            if(s[c] == t[i]){
-                c++;
-            }
-        }
+//         int length = s.size();
+//         int c = 0;
+//         if(length == 0){
+//             return true;
+//         }
+//         for(int i = 0; i < t.size(); i++){
+//             if(s[c] == t[i]){
+//                 c++;
+//             }
+//         }
 
-        if(c == length){
-            return true;
-        }
+//         if(c == length){
+//             return true;
+//         }
             
-        return false;
+//         return false;
     }
 };
