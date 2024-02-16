@@ -19,11 +19,11 @@ public class Solution {
             }            
         }
         List<int> result = new List<int>();
-            for(int i = 0; i < nums.Length; i++){
-                if(nums[i] > 0){
-                    result.Add(i+1);
-                }
+        for(int i = 0; i < nums.Length; i++){
+            if(nums[i] > 0){
+                result.Add(i+1);
             }
-            return result;
+        }
+        return result;
     }
 }
