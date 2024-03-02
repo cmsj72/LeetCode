@@ -43,7 +43,6 @@ public:
         // return sum == num;
 
         //  3.  Optimal Solution [Accepted]
-        //  num <= 0 조건문 제외 하고 같음
         // if (num <= 0) {
         //     return false;
         // }
