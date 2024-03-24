@@ -26,4 +26,29 @@ public:
         }
         return true;
     }
+
+    //  ==============================  //
+    //  submission 제일 빠른 코드
+
+    // bool isPalindrome(string s){
+    //     for(int i=0;i<s.size()/2;i++){
+    //         if(s[i]!=s[s.size()-1-i]) return false;
+    //     }
+    //     return true;
+    // }
+
+    // bool validPalindrome(string s) {
+    //     ios_base::sync_with_stdio(0);
+    //     for(int i=0;i<s.size()/2;i++){
+    //         if(s[i]!=s[s.size()-1-i]){
+    //             string left = s;
+    //             string right = s;
+    //             left.erase(left.begin()+i);
+    //             right.erase(right.begin()+(s.size()-1-i));
+    //             cout << left << "," << right << endl;
+    //             return isPalindrome(left)||isPalindrome(right);
+    //         }
+    //     }
+    //     return true;
+    // }
 };
