@@ -1,7 +1,6 @@
-class Solution {
-public:
-    vector<int> selfDividingNumbers(int left, int right) {
-        vector<int> vec;
+public class Solution {
+    public IList<int> SelfDividingNumbers(int left, int right) {
+        List<int> list = new();
         for(int i = left; i <= right; i++){
             int num = i;
             bool flag = true;
@@ -13,9 +12,9 @@ public:
                 num /= 10;
             }
             if(flag){
-                vec.push_back(i);
+                list.Add(i);
             }
         }
-        return vec;
+        return list;
     }
-};
+}
